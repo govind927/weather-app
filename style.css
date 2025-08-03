@@ -178,4 +178,36 @@ input:checked + .slider:before {
   }
 }
 
+/* Responsive design tweaks */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .card {
+    width: 90%;
+    padding: 1.5em;
+  }
+
+  .search {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input.search-bar {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .footer {
+    position: static;
+    margin-top: 1em;
+  }
+}
+
 
